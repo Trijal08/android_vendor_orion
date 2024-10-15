@@ -2,6 +2,7 @@
 $(call inherit-product-if-exists, vendor/extra/product.mk)
 $(call inherit-product-if-exists, vendor/lineage/config/orion.mk)
 $(call inherit-product-if-exists, vendor/addons/config.mk)
+$(call inherit-product-if-exists, vendor/gapps/products/gms.mk)
 $(call inherit-product-if-exists, vendor/pixel-framework/config.mk)
 
 PRODUCT_BRAND ?= OrionOS
